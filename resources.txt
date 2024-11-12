@@ -1,0 +1,8 @@
+BASH language cheat sheet
+https://github.com/RehanSaeed/Bash-Cheat-Sheet
+
+TigerVNC download
+https://sourceforge.net/projects/tigervnc/
+
+PuTTY download
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
