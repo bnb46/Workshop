@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 from flask import Flask, render_template, request
 import time
+import subprocess
 
 # Setup the GPIO
 GPIO.setmode(GPIO.BCM)
