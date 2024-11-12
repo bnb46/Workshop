@@ -6,3 +6,9 @@ https://sourceforge.net/projects/tigervnc/
 
 PuTTY download
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+SD card formatter
+https://www.sdcard.org/downloads/formatter/
+
+Raspberry Pi SD Card flasher
+https://www.raspberrypi.com/software/
