@@ -30,9 +30,18 @@ def led():
         print("LED is OFF")
     return '', 204  # Return no content
 
+
+# Function to terminate Flask server process
+def terminate_flask():
+    # Find the PID of the process using port 5000 and kill it
+    subprocess.run("sudo lsof -t -i:5000 | xargs sudo kill -9", shell=True)
+    
 # Run the Flask app
 if __name__ == '__main__':
     try:
         app.run(host='0.0.0.0', port=5000, debug=True)
     except KeyboardInterrupt:
-        GPIO.cleanup()
+        print("Keyboard Interrupt received. Cleaning up...")
+        terminate_flask()  # Kill the process holding the port 5000
+        GPIO.cleanup()  # Clean up GPIO settings
+        print("GPIO cleanup done and port 5000 is released.")
