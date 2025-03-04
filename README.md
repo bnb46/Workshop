@@ -7,14 +7,11 @@ https://www.w3schools.io/terminal/bash-variables/
 Python tutorials
 https://www.w3schools.com/python/
 
-TigerVNC download
+TigerVNC download (For headless raspberry pi connection with a GUI)
 https://sourceforge.net/projects/tigervnc/
 
-PuTTY download
+PuTTY download (For headless raspberry pi connection through terminal only)
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-
-SD card formatter
-https://www.sdcard.org/downloads/formatter/
 
 Raspberry Pi SD Card flasher
 https://www.raspberrypi.com/software/
