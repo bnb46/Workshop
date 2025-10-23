@@ -18,3 +18,6 @@ https://www.raspberrypi.com/software/
 
 Project Ideas
 https://pimylifeup.com/category/projects/
+
+Raspberry Pi 4 Board + Accessory options
+https://www.canakit.com/raspberry-pi-4-2gb.html?cid=USD
