@@ -9,6 +9,7 @@ app = Flask(__name__)
 # variable to use as an object. __name__ is a special Python variable that indicates the current script's name. 
 # Flask uses this to determine the root path for your project.
 
+# Set up which pin you want to use for your LED
 led = LED(14)
 
 # Route for the main webpage
@@ -41,4 +42,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("Keyboard Interrupt received. Cleaning up...")
         terminate_flask()  # Kill the process holding the port 5000
+
 
