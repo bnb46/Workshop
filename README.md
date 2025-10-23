@@ -21,3 +21,6 @@ https://pimylifeup.com/category/projects/
 
 Raspberry Pi 4 Board + Accessory options
 https://www.canakit.com/raspberry-pi-4-2gb.html?cid=USD
+
+Free Library Raspberry Pi
+https://libguides.uwf.edu/c.php?g=702115&p=5014568
