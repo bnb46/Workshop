@@ -1,15 +1,16 @@
-import RPi.GPIO as GPIO
-import time
+import RPi.GPIO as GPIO    # Import the GPIO interface library
+import time                # Import the time library
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(14,GPIO.OUT)
+GPIO.setmode(GPIO.BCM)     # Tells python what pin naming convention we are using
+GPIO.setwarnings(False)    # Ignore warnings (we live life on the edge)
+GPIO.setup(14,GPIO.OUT)    # Set pin 14 to output mode
 
-while True:
-    GPIO.output(14,GPIO.HIGH)
-    print("LED is ON")
-    time.sleep(1)
+while True: # While loop
+    GPIO.output(14,GPIO.HIGH)    # Turn your led ON
+    print("LED is ON")           # Display confirmation message
+    time.sleep(1)                # "sleep" (wait) for 1 second
 
-    GPIO.output(14,GPIO.LOW)
-    print("LED is OFF")
-    time.sleep(1)
+    GPIO.output(14,GPIO.LOW)     # Turn your led OFF
+    print("LED is OFF")          # Display confirmation message
+
+    time.sleep(1)                # "sleep" (wait) for 1 second
